@@ -1,0 +1,93 @@
+USER: Please help me understand the Danish jurisdiction on publically available data, that i can use for a large commercial dataset
+
+---------------------------------------------
+
+AI:
+Happy to walk you through this. Quick caveat first: I'm not a lawyer, and for a large commercial dataset you'll want actual Danish counsel before launch, because this area got noticeably stricter in 2025. That said, here's the landscape.
+
+**"Publicly available" does not mean "free to use."** Under Danish and EU law, data you can access without a login is still governed by at least three separate legal regimes: intellectual property law, data protection law (GDPR), and increasingly the EU AI Act if the dataset feeds AI training.
+
+**Copyright and database rights.** Denmark implements the EU Database Directive, so structured collections of data enjoy sui generis database protection (the Danish Copyright Act, ophavsretsloven, § 71) even when the individual data points are unprotectable facts. This is where Danish law recently got teeth: in the 2025 BoligPortal v. ReData case, a Danish court found that a company scraping publicly available property data points (rent, coordinates, room counts, energy labels) from a rental portal's API infringed the portal's sui generis database rights. Crucially, the court confirmed that a website can effectively block text and data mining simply by publishing an explicit, machine-readable prohibition, and that even an HTML privacy policy can serve as a valid opt-out under EU law.
+
+**The TDM exception and its opt-out.** Denmark implemented the DSM Directive (2019/790), whose Article 4 allows text and data mining for commercial purposes, but only for lawfully accessible content and only where the rightsholder has not reserved their rights. Danish law expressly lets the database holder reserve these rights and derogate from the exception, so a robots.txt disallow, an ai.txt file, or terms of service prohibiting mining can legally close the door on your commercial use. Danish rightsholders are also actively enforcing this: the Danish Rights Alliance successfully pressured Common Crawl to stop copying content from Danish media houses.
+
+**GDPR and the Danish Data Protection Act.** If any of the data relates to identifiable people (names, addresses, emails, usernames, photos), the fact that it's public changes almost nothing. You still need a legal basis (typically a legitimate interest balancing test under Article 6(1)(f)), you must comply with purpose limitation, and you have a duty under Article 14 to inform data subjects that you've collected their data, which is genuinely burdensome at dataset scale. Denmark's supplement, databeskyttelsesloven, adds national rules, including strict limits on processing CPR numbers (§ 11). Datatilsynet takes a conservative line here; it has, for example, tightened its practice so that email addresses and phone numbers cannot even be published in public municipal web archives, which tells you how it views bulk handling of "harmless" public personal data. Special category data (health, political views, religion, etc.) under Article 9 is essentially off limits for scraping.
+
+**The friendlier side: Danish open government data.** Denmark is actually one of the best jurisdictions in the world for freely reusable public sector data. Registers like CVR (company register), BBR (buildings), DAR/DAWA (addresses), the cadastre, and much of Datafordeleren are released under open data terms that generally permit commercial reuse, in line with the EU Open Data Directive. If you can build your dataset primarily from these official sources rather than scraping private websites, your legal position improves dramatically. Note that even ReData in the case above sourced from public registers legally; the problem arose specifically from harvesting a private company's database.
+
+**AI Act, if relevant.** If the dataset is for training models, note that from August 2026 the EU AI Act gains real enforcement teeth, and providers of general-purpose AI models must publish a training data summary and maintain a copyright policy that identifies and respects machine-readable TDM opt-outs like robots.txt.
+
+Practically, the checklist looks like this: prefer official Danish open data sources; for anything scraped, verify there is no machine-readable or ToS-based rights reservation before collecting; avoid extracting a "substantial part" of any single site's database; strip or avoid personal data where possible, and if you can't, document your Article 6(1)(f) assessment and Article 14 strategy; and keep records of when and how you collected everything.
+
+If you tell me what kind of data you're planning to collect (company data, real estate, prices, text content, etc.), I can point you toward the specific sources and rules that matter most for your case.
+
+---------------------------------------------
+
+USER: Okay, here was my plan. I'd like to collect a dataset of everything that any politician has proclaimed/said publically that is available on free platforms online. Sources include certain free to read news sources, the "folketinget" webpage, and social media posts.
+
+---------------------------------------------
+
+AI:
+This is a great concrete case to work through, because your three source categories sit at very different risk levels. Let me take them one at a time, from safest to riskiest.
+
+**Folketinget: mostly green, with one quirky caveat.** This is your best source by far. First, the Danish Copyright Act § 9 excludes laws, administrative acts, court decisions, and similar official documents from copyright protection entirely. Second, § 26 specifically allows reproduction of proceedings in Folketinget, municipal councils, and other elected public bodies without the author's consent. Third, and most practically, Folketinget runs an official open data API (oda.ft.dk) exposing cases, documents, votes, and debate records precisely so that people can build things on top of it, including commercially. Use the API rather than scraping ft.dk, and you're on solid ground.
+
+The caveat is a genuinely obscure but directly relevant detail: § 26 reserves to the speaker the exclusive right to publish collections of their own contributions. A dataset organized as "everything politician X has said" arguably brushes against exactly that reserved right for the parliamentary portion. It has essentially never been litigated, and a mixed-source database is probably distinguishable from "publishing a collection," but this is the one point I'd specifically put in front of a Danish IP lawyer, because your product concept matches the wording of the reservation uncomfortably well.
+
+**News sites: red, even the free ones.** Free to read does not mean free to harvest. Articles are copyrighted works, the sites are protected databases, and Danish press publishers additionally hold the press publishers' right from the DSM Directive and enforce it collectively (through DPCMO). Danish media are among the most aggressive enforcers in Europe on exactly this issue: following a formal request from the Danish Rights Alliance, Common Crawl agreed to stop copying content from Danish media houses' websites, and the 2025 BoligPortal ruling confirmed that a machine-readable prohibition published on a site is a valid opt-out that blocks text and data mining under EU law. Essentially all major Danish outlets have such reservations in place now.
+
+There is a narrow path here: pure facts and short quotations are not protected by copyright, so the politician's statement itself ("minister X said Y on date Z") is closer to unprotectable fact than protected expression. But you cannot get to those facts by systematically scraping and storing the articles, because the act of bulk extraction itself infringes the database and TDM rules regardless of what you keep afterward. If news quotes matter to the product, the realistic options are licensing from the publishers or DPCMO, or relying on sources that republish the statements lawfully (press releases, party websites, Ritzau feeds you pay for).
+
+**Social media: red for scraping, conditional otherwise.** Platform terms uniformly prohibit scraping, Meta and X litigate against it actively, and after the BoligPortal ruling those terms likely also function as valid TDM opt-outs in Denmark. The compliant routes are the platforms' official APIs (X's paid tiers, Meta's Content Library for researchers) or the politicians' own channels: many Danish parties and politicians cross-post statements to their own websites and press pages, which changes the analysis considerably, especially where no rights reservation exists.
+
+**The GDPR angle is more interesting than usual here.** Statements by politicians reveal political opinions, which is special category data under Article 9, normally near-untouchable for scraping. But Article 9(2)(e) exempts data manifestly made public by the data subject, and a politician proclaiming a position publicly is close to the paradigm case for that exemption. You still need an Article 6 basis (legitimate interest is defensible, and there's a recognized public interest in political accountability, which is why voting-record sites exist across the EU), and you still have the Article 14 duty to inform. The good news is that unlike most scraping projects, your data subjects are a finite, well-defined, professionally contactable group, so notifying them is actually feasible. Two things to handle carefully: purpose limitation (a dataset for accountability journalism is easier to defend than one for, say, targeted campaigning tools) and mixing in statements from before someone became a politician or from their private accounts, where the "manifestly public political figure" logic weakens fast.
+
+So the honest summary: build the spine of this from the Folketinget open data API, treat news and social media as licensed or first-party-source additions rather than scraping targets, document your GDPR legitimate interest assessment, and get a Danish lawyer's read on the § 26 collections question and on your Article 14 notification plan before going commercial. Would it help if I sketched out what's actually available in the Folketinget ODA API so you can see how much of your goal it covers on its own?
+
+---------------------------------------------
+
+USER: Actually, do the laws change if the dataset i create is *not* commerical?
+
+---------------------------------------------
+
+AI:
+Less than you might hope, and the ways it changes are specific, so let me be precise about where "non-commercial" actually matters and where it doesn't.
+
+**Where it genuinely helps: the research TDM exception.** The DSM Directive has two mining exceptions, and Denmark implemented both. Article 4 (the one we've been discussing) covers everyone including commercial actors, but rightsholders can opt out. Article 3 covers text and data mining for scientific research, and crucially, rightsholders cannot opt out of it. Robots.txt blocks and terms of service reservations are legally ineffective against it. That would dissolve most of your news media problem.
+
+But here's the catch: Article 3 is not a "non-commercial" exception, it's a "research organization" exception. It applies to universities, research institutes, and cultural heritage institutions acting on a not-for-profit basis or under a public interest mission. A private individual or a company building a dataset non-commercially does not qualify just because no money changes hands. The German LAION case illustrates the distinction: the court accepted the research exception for a nonprofit research association building a dataset released free for scientific purposes, but that worked because of what LAION was, not merely because the dataset was free. So if you could partner with or work under a Danish university or research institution, this exception becomes available and changes your position dramatically. As a solo private project, it doesn't.
+
+**Where it helps a little: Folketinget material.** The § 26 concern I flagged (the speaker's reserved right to publish collections of their own contributions) is aimed at commercial exploitation of a politician's speeches. A non-commercial dataset is less likely to provoke a dispute and sits more comfortably within the provision's spirit, though the formal legal question doesn't fully disappear.
+
+**Where it doesn't help at all: GDPR.** Data protection law does not care whether you profit. The only carve-out is the "household exemption" for purely personal activity, and publishing or sharing a structured dataset about identifiable people falls well outside it; even a hobby project with a public GitHub repo is a controller under GDPR. Your legal basis analysis, the Article 9 "manifestly made public" reasoning, and the Article 14 notification duty all remain exactly as before. If anything, the legitimate interest balancing test tilts slightly more in your favor for a genuinely public-interest accountability project, but the obligations themselves are unchanged.
+
+**Where it barely helps: database rights and platform terms.** Sui generis database protection is infringed by extracting a substantial part regardless of your purpose; the BoligPortal reasoning doesn't hinge on the scraper's business model. Denmark does have a private copying exception (§ 12), but it covers personal use and cannot stretch to cover building a dataset you distribute or let others use. Social media terms of service prohibit scraping for any purpose, not just commercial ones, so the contract problem is identical.
+
+One more distinction worth making: "non-commercial" and "private" are different things. A dataset you build purely for yourself and never share is low-risk almost regardless of the analysis above, simply because nothing surfaces. The legal exposure arrives when you publish or distribute, and at that point the commercial/non-commercial line matters far less than people assume, with the research organization route being the one big exception.
+
+So the practical takeaway: if the non-commercial framing reflects a genuine research ambition, the strongest move is to anchor the project at a university or research institution, which unlocks the opt-out-proof Article 3 exception for the news and social media material. If it's simply a free public project, your legal position is only marginally better than the commercial version, and the Folketinget-API-first architecture I described remains the right backbone.
+
+---------------------------------------------
+
+USER: what are reasonable first steps. What can i do without any help?
+
+---------------------------------------------
+
+AI:
+Quite a lot, actually. The safe core of this project requires no lawyer, no partnerships, and no licenses. Here is a sensible order of operations.
+
+**1. Start with the Folketinget open data API.** Go to oda.ft.dk and explore it. It is a free OData API with no API key required, covering cases, documents, speeches, votes, actors (politicians), and their relationships. Build a small prototype that pulls, say, everything one politician has said in parliamentary debates over one year. This alone will teach you the data model, show you how much of your goal is covered by the cleanest possible source, and give you a working ingestion pipeline. This step is legally uncontroversial and technically the hardest part anyway, so it is the right place to spend your energy first.
+
+**2. Map your politicians to their first-party channels.** Make a structured list of every current MP with links to their official party page, personal website, and press release feeds from the parties. Party websites publish speeches, opinion pieces, and statements precisely because they want them spread. Before collecting from any of these, check each site's robots.txt and terms for a mining reservation, and record what you found and when. Where no reservation exists, collecting is defensible; where one exists, skip the site and note it. That per-source log is your best protection later.
+
+**3. Design the dataset around statements, not articles.** Store the quote, the speaker, the date, the topic, and a link to the source, rather than storing the surrounding copyrighted text. This keeps you on the "unprotectable facts" side of copyright for the material outside Folketinget, and linking to sources instead of mirroring them is both legally safer and more useful for verification.
+
+**4. Write your GDPR paperwork yourself.** You do not need a lawyer to draft the first version of a legitimate interest assessment. It is a short document: what you collect, why, the public accountability interest, why politicians' public statements are "manifestly made public," what you exclude (private accounts, pre-political life, family members, health information), and how long you keep things. Also draft a simple privacy notice you could publish alongside the dataset. Datatilsynet's website has templates and guidance for exactly these documents. Doing this early forces good design decisions, like scoping to current officeholders' official activity.
+
+**5. Set scope rules and stick to them.** Decide now that you only collect statements made in a political capacity, only from official or clearly public channels, and that you exclude the risky categories: paywalled or reservation-protected news sites, platform scraping, and private social accounts. A written scope document sounds bureaucratic for a solo project, but it is what turns "I scraped stuff" into "I ran a documented, principled collection process" if anyone ever asks.
+
+**6. Keep it private until the foundation is solid.** Nothing stops you from building and testing the whole pipeline on your own machine. The legal exposure begins at distribution, so treat publication as a separate later milestone that you hit only after the source log and GDPR documents exist.
+
+What you cannot do alone: license news content, get platform API access on research terms, resolve the § 26 collections question definitively, or invoke the research TDM exception. But notice that none of those block the core build. My honest estimate is that Folketinget plus party and politician first-party sources gets you a genuinely large and useful dataset before you ever need to knock on anyone's door, and if the project proves itself, that working prototype is also exactly what makes a university partnership conversation easy later.
+
+If you want, I can help you write the first script against the Folketinget ODA API so you can see real data flowing today.
