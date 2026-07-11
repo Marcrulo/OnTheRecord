@@ -15,10 +15,10 @@ Collect dataset of citations and source of everything publically being said by c
 * Create database
   * DimPoliticians
   * DimParties
-  * DimNewsSources
+  * DimSources
   * FactPoliticianStatus
   * FactStatements
   * FactLegislation
   
-# Website
-* Display overview of each politician in terms of statements and legislation voting over time
+# Dataset
+* Overview of each public statement made by politicians

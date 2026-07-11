@@ -1,6 +1,17 @@
 # Typer af data
 https://www.ft.dk/da/dokumenter
 
+Konklusion:
+* https://www.ft.dk/da/dokumenter/dokumentlister/referater
+* https://www.ft.dk/da/dokumenter/dokumentlister/afstemninger
+* https://www.ft.dk/-/media/sites/ft/pdf/dokumenter/aabne-data/oda-browser_brugervejledning.pdf
+
+
+
+
+
+
+
 ## Lov- og beslutningsforslag
 * (.) Lovforslag
 * (.) Beslutningsforslag
