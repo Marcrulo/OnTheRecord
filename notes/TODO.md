@@ -1,8 +1,5 @@
-1. Udforsk data og scraping muligheder
-  * \, folketinget (referater og afstemninger)
-  * \, nyhedsartikler
-  * X  sociale medier
-
-2. Databasestruktur
-  * map alle politikere etc.
-  * https://www.drawdb.app/editor/diagrams/e4b7c52e-8bc2-484c-bade-71ae4b2ca6f4 
+1. Populate dim and bridge tables locally
+  * Can AI do this automatically?
+2. Fetch social media post links
+3. Extract text, then assign to people
+4. Create actual database

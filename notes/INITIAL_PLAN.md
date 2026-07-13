@@ -12,13 +12,7 @@ Collect dataset of citations and source of everything publically being said by c
 
 # Processing
 * Filter paragraphs/sentences that are linked to certain politicians
-* Create database
-  * DimPoliticians
-  * DimParties
-  * DimSources
-  * FactPoliticianStatus
-  * FactStatements
-  * FactLegislation
+* Create database (https://www.drawdb.app/editor/diagrams/e4b7c52e-8bc2-484c-bade-71ae4b2ca6f4)
   
 # Dataset
 * Overview of each public statement made by politicians
