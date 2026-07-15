@@ -1,3 +1,2 @@
 # *.xml
-data/scraped
-data/ft/
+data/*

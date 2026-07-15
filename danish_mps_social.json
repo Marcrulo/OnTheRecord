@@ -1,0 +1,1437 @@
+{
+  "note": "Each platform field is the profile URL or null. URLs come from the official Folketinget biography or a Google search best-match; search matches are not guaranteed to be the correct person.",
+  "members": [
+    {
+      "name": "Alex Ahrendtsen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18
+    },
+    {
+      "name": "Alex Vanopslagh",
+      "facebook": "https://www.facebook.com/AlexLiberalAlliance/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18703
+    },
+    {
+      "name": "Allan Feldt",
+      "facebook": "https://www.facebook.com/AllanFeldt.Politik/directory_links",
+      "instagram": "https://www.instagram.com/allanfeldt/",
+      "twitter_x": "https://x.com/AllanFeldt_",
+      "linkedin": "https://www.linkedin.com/in/allan-feldt-62a757/",
+      "aktoer_id": 21386
+    },
+    {
+      "name": "Amanda Heitmann",
+      "facebook": "https://www.facebook.com/p/Amanda-Heitmann-i-Folketinget-61575565225889/",
+      "instagram": "https://www.instagram.com/amanda__heitmann/",
+      "twitter_x": "https://x.com/AmandaHeitmann",
+      "linkedin": "https://dk.linkedin.com/in/amanda-heitmann-72252b166",
+      "aktoer_id": 21362
+    },
+    {
+      "name": "Anastasia Milthers",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21360
+    },
+    {
+      "name": "Anders Kronborg",
+      "facebook": "https://www.facebook.com/kronborg.esbjerg",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18718
+    },
+    {
+      "name": "Anders Kühnau",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21349
+    },
+    {
+      "name": "Anders Storgaard",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15336
+    },
+    {
+      "name": "Anders Vistisen",
+      "facebook": "https://www.facebook.com/AndersVistisenDF/",
+      "instagram": "https://www.instagram.com/avistisen/",
+      "twitter_x": "https://x.com/Anders_Vistisen",
+      "linkedin": "https://dk.linkedin.com/in/anders-primdahl-vistisen-a4690b77",
+      "aktoer_id": 20414
+    },
+    {
+      "name": "Ane Halsboe-Jørgensen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 286
+    },
+    {
+      "name": "Anna Bjerre",
+      "facebook": "https://www.facebook.com/anna.bjerrejohansen",
+      "instagram": "https://www.instagram.com/annabjerre_/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/anna-bjerre-johansen-b852171a9/",
+      "aktoer_id": 21342
+    },
+    {
+      "name": "Anna Falkenberg",
+      "facebook": "https://www.facebook.com/annalovisafalkenberg",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20349
+    },
+    {
+      "name": "Anne Valentina Berthelsen",
+      "facebook": "https://www.facebook.com/stem.anne.valentina",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18706
+    },
+    {
+      "name": "Anni Matthiesen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 168
+    },
+    {
+      "name": "Astrid Carøe",
+      "facebook": "https://www.facebook.com/AstridCaroe/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18707
+    },
+    {
+      "name": "Benny Engelbrecht",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 120
+    },
+    {
+      "name": "Birgitte Bergman",
+      "facebook": "https://www.facebook.com/BirgitteBergmanPolitiker",
+      "instagram": "https://www.instagram.com/birgittebergman/",
+      "twitter_x": "https://x.com/BirgitteBergman",
+      "linkedin": "https://www.linkedin.com/in/birgittebergman/",
+      "aktoer_id": 18711
+    },
+    {
+      "name": "Birgitte Vind",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18719
+    },
+    {
+      "name": "Bjørn Brandenborg",
+      "facebook": "https://www.facebook.com/stembrandenborg",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18717
+    },
+    {
+      "name": "Camilla Fabricius",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18720
+    },
+    {
+      "name": "Carl Valentin",
+      "facebook": "https://www.facebook.com/CarlValentinSF/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 17628
+    },
+    {
+      "name": "Caroline Stage",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20976
+    },
+    {
+      "name": "Carsten Bach",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15779
+    },
+    {
+      "name": "Cecilie Liv Hansen",
+      "facebook": "https://www.facebook.com/Cecilieldh/?http_ref=eyJ0cyI6MTc4MzE2MjExMjAwMCwiciI6IiJ9",
+      "instagram": "https://www.instagram.com/cecilieldh/?hl=da",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21355
+    },
+    {
+      "name": "Charlotte Bagge Hansen",
+      "facebook": "https://www.facebook.com/charlotte.bagge.hansen/",
+      "instagram": "https://www.instagram.com/charlotte.bagge.hansen/",
+      "twitter_x": "https://x.com/charlotte_bagge",
+      "linkedin": "https://www.linkedin.com/in/charlotte-bagge-hansen-b2b246239/",
+      "aktoer_id": 20385
+    },
+    {
+      "name": "Charlotte Broman Mølbæk",
+      "facebook": "https://www.facebook.com/CharlotteBromanMoelbaek/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18708
+    },
+    {
+      "name": "Charlotte Green",
+      "facebook": "https://www.facebook.com/PolitikerCharlotteGreen/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": "http://linkedin.com/in/charlottegreen1",
+      "aktoer_id": 21350
+    },
+    {
+      "name": "Christian Kirk",
+      "facebook": "https://www.facebook.com/p/Christian-Kirk-Dansk-Folkeparti-61588608209503/",
+      "instagram": "https://www.instagram.com/christiankirk00/",
+      "twitter_x": "https://x.com/KirkChrist11830",
+      "linkedin": null,
+      "aktoer_id": 21403
+    },
+    {
+      "name": "Christian Rabjerg Madsen",
+      "facebook": "https://www.facebook.com/christian.rabjerg",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15762
+    },
+    {
+      "name": "Christian Vigilius",
+      "facebook": "https://www.facebook.com/christian.holst.vigilius/",
+      "instagram": "https://www.instagram.com/christianvigilius/",
+      "twitter_x": "https://x.com/HolstVigilius",
+      "linkedin": "https://www.linkedin.com/in/christian-vigilius/",
+      "aktoer_id": 21364
+    },
+    {
+      "name": "Christina Egelund",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15773
+    },
+    {
+      "name": "Christina Lykke",
+      "facebook": "https://www.facebook.com/christina.lykke.3",
+      "instagram": "https://www.instagram.com/christinalykke2023?igsh=MjkxdzNydWt2cjhk&utm_source=qr",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21340
+    },
+    {
+      "name": "Christoffer Aagaard Melson",
+      "facebook": "https://www.facebook.com/christofferaagaardmelson",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18699
+    },
+    {
+      "name": "Dennis Flydtkjær",
+      "facebook": "https://www.facebook.com/DennisFlydtkjaer/",
+      "instagram": "https://www.instagram.com/dennisflydtkjaer1/",
+      "twitter_x": "https://x.com/flydtkjaer",
+      "linkedin": null,
+      "aktoer_id": 119
+    },
+    {
+      "name": "Elise Sydendal",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/elisesydendal/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/elise-sydendal/",
+      "aktoer_id": 21379
+    },
+    {
+      "name": "Ellen Emilie",
+      "facebook": "https://www.facebook.com/people/Ellen-Emilie/100008605150225/#",
+      "instagram": "https://www.instagram.com/ellenemilie_/",
+      "twitter_x": "https://x.com/EllenEmilie_",
+      "linkedin": "https://dk.linkedin.com/in/ellen-emilie-546a3a248",
+      "aktoer_id": 21385
+    },
+    {
+      "name": "Emilie Schytte",
+      "facebook": "https://www.facebook.com/emilieschyttepedersen",
+      "instagram": "https://www.instagram.com/emilieschytte_folketingsmedlem/",
+      "twitter_x": "https://x.com/EmilieSPedersen",
+      "linkedin": "https://www.linkedin.com/in/emilie-schytte-75575b33/",
+      "aktoer_id": 21369
+    },
+    {
+      "name": "Eva Borchorst Mejnertz",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21404
+    },
+    {
+      "name": "Eva Flyvholm",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15791
+    },
+    {
+      "name": "Fie Hækkerup",
+      "facebook": "https://www.facebook.com/HaekkerupFie",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20361
+    },
+    {
+      "name": "Flemming Møller Mortensen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 224
+    },
+    {
+      "name": "Franciska Rosenkilde",
+      "facebook": "https://www.facebook.com/rosenkildefranciska",
+      "instagram": "https://www.instagram.com/franciskarosenkilde/",
+      "twitter_x": "https://x.com/FranciskaRosenk",
+      "linkedin": "https://www.linkedin.com/in/franciska-rosenkilde-480467105/",
+      "aktoer_id": 20351
+    },
+    {
+      "name": "Frederik Bloch Münster",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20966
+    },
+    {
+      "name": "Frederik Vad",
+      "facebook": "https://www.facebook.com/frederikvadA",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20364
+    },
+    {
+      "name": "Freja Brandhøj",
+      "facebook": "https://www.facebook.com/profile.php?id=61581260813852",
+      "instagram": "https://www.instagram.com/fbrandhoej",
+      "twitter_x": "https://x.com/frejabrandhoej",
+      "linkedin": "https://www.linkedin.com/in/freja-brandh%C3%B8j/",
+      "aktoer_id": 21366
+    },
+    {
+      "name": "Frida Bruun",
+      "facebook": "https://www.facebook.com/profile.php?id=100085938240125",
+      "instagram": "https://www.instagram.com/fridafrafovling/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/frida-vyff-bruun-5a89647a/",
+      "aktoer_id": 21356
+    },
+    {
+      "name": "Hans Kristian Skibby",
+      "facebook": "https://www.facebook.com/hans.skibby",
+      "instagram": null,
+      "twitter_x": "https://x.com/Hans_Kr_Skibby",
+      "linkedin": "https://www.linkedin.com/in/hans-kristian-skibby-13ab5a136/",
+      "aktoer_id": 82
+    },
+    {
+      "name": "Helena Artmann Andresen",
+      "facebook": "https://www.facebook.com/Helena-Artmann-Andresen-Liberal-Alliance-114505224571706",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20398
+    },
+    {
+      "name": "Helle Bonnesen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20369
+    },
+    {
+      "name": "Henrik Frandsen",
+      "facebook": "https://www.facebook.com/politikerhenrikfrandsen",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20377
+    },
+    {
+      "name": "Ibrahim Benli",
+      "facebook": "https://www.facebook.com/IbrahimBenlispolitikerprofil",
+      "instagram": "https://www.instagram.com/ibbenli",
+      "twitter_x": "https://x.com/ibrahimbenli_",
+      "linkedin": null,
+      "aktoer_id": 21302
+    },
+    {
+      "name": "Ida Auken",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 152
+    },
+    {
+      "name": "Inger Støjberg",
+      "facebook": "https://www.facebook.com/IngerStojberg",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 182
+    },
+    {
+      "name": "Jacob Harris",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21374
+    },
+    {
+      "name": "Jacob Jensen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 173
+    },
+    {
+      "name": "Jacob Mark",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15788
+    },
+    {
+      "name": "Jakob Engel-Schmidt",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 57
+    },
+    {
+      "name": "Jan Herskov",
+      "facebook": "https://www.facebook.com/profile.php?id=100063935269779",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/jan-hemberg-herskov-008115117/",
+      "aktoer_id": 21378
+    },
+    {
+      "name": "Jens Henrik Thulesen Dahl",
+      "facebook": "https://www.facebook.com/JensHenrikThulesenDahlDD",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/jens-henrik-winther-thulesen-dahl-13bb073b",
+      "aktoer_id": 113
+    },
+    {
+      "name": "Jens Meilvang",
+      "facebook": "https://www.facebook.com/jens.meilvang/?locale=da_DK",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20396
+    },
+    {
+      "name": "Jeppe Bruus",
+      "facebook": "https://www.facebook.com/jeppe.bruus",
+      "instagram": "https://www.instagram.com/jeppebruus/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/jeppe-bruus-7246002b/",
+      "aktoer_id": 214
+    },
+    {
+      "name": "Jesper Petersen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 97
+    },
+    {
+      "name": "Joachim Riis",
+      "facebook": "https://www.facebook.com/joachimriisbernickowla/",
+      "instagram": "https://www.instagram.com/joachimriis.la/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/joachim-riis-176749a9/",
+      "aktoer_id": 21375
+    },
+    {
+      "name": "Julie Jacobsen",
+      "facebook": "https://www.facebook.com/JulieJacobsenDF/?locale=da_DK",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21377
+    },
+    {
+      "name": "Jørgen Kvist",
+      "facebook": "https://www.facebook.com/joergenkvist",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 9896
+    },
+    {
+      "name": "Kaare Dybvad Bek",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15787
+    },
+    {
+      "name": "Karina Adsbøl",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 162
+    },
+    {
+      "name": "Karina Lorentzen Dehnhardt",
+      "facebook": "https://www.facebook.com/karinalorentzendehnhardt/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 121
+    },
+    {
+      "name": "Karsten Hønge",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 199
+    },
+    {
+      "name": "Kasper Roug",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 16180
+    },
+    {
+      "name": "Katrine Daugaard",
+      "facebook": "https://www.facebook.com/katrinedaugaard",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20393
+    },
+    {
+      "name": "Katrine Evelyn Jensen",
+      "facebook": "https://www.facebook.com/p/Katrine-Evelyn-Jensen-61558332602144/",
+      "instagram": "https://www.instagram.com/katrineevelyn/",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21343
+    },
+    {
+      "name": "Katrine Robsøe",
+      "facebook": "https://www.facebook.com/katrinerobsoe",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18729
+    },
+    {
+      "name": "Kim Edberg Andersen",
+      "facebook": "https://www.facebook.com/kimakristoff",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20355
+    },
+    {
+      "name": "Kirsten Normann Andersen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 16728
+    },
+    {
+      "name": "Lars Aagaard",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20423
+    },
+    {
+      "name": "Lars Boje Mathiesen",
+      "facebook": "https://www.facebook.com/LBMathiesen",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18724
+    },
+    {
+      "name": "Lars Løkke Rasmussen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 145
+    },
+    {
+      "name": "Lars-Christian Brask",
+      "facebook": "https://www.facebook.com/LarsChristianLiberalAlliance/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20392
+    },
+    {
+      "name": "Lea Wermelin",
+      "facebook": "https://www.facebook.com/lea.wermelin/",
+      "instagram": "https://www.instagram.com/leawermelin",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15760
+    },
+    {
+      "name": "Leif Lahn Jensen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 260
+    },
+    {
+      "name": "Leila Stockmarr",
+      "facebook": "https://www.facebook.com/leila.stockmarr/",
+      "instagram": "https://www.instagram.com/leilastockmarr/",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20411
+    },
+    {
+      "name": "Lisbeth Bech-Nielsen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 219
+    },
+    {
+      "name": "Lisbeth Torfing",
+      "facebook": "https://www.facebook.com/lisbethtorfing",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20135
+    },
+    {
+      "name": "Lise Bertelsen",
+      "facebook": "https://www.facebook.com/modmedordentlighed",
+      "instagram": "https://www.instagram.com/bertelsen_lise/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/lise-bertelsen-06a814294/",
+      "aktoer_id": 20357
+    },
+    {
+      "name": "Lise Müller",
+      "facebook": "https://www.facebook.com/LiseSF/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21361
+    },
+    {
+      "name": "Louise Louring",
+      "facebook": "https://www.facebook.com/LouringPolitik/",
+      "instagram": "https://www.instagram.com/louiselouring/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/louise-lingren-louring/",
+      "aktoer_id": 21353
+    },
+    {
+      "name": "Mads Fuglede",
+      "facebook": "https://www.facebook.com/mads.fuglede/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 17629
+    },
+    {
+      "name": "Mads Strange",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/mads.strange/",
+      "twitter_x": "https://x.com/MadsStrange_",
+      "linkedin": "https://www.linkedin.com/in/mads-strange-4236b5131?originalSubdomain=dk",
+      "aktoer_id": 21384
+    },
+    {
+      "name": "Magnus Georg Jensen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21381
+    },
+    {
+      "name": "Magnus Heunicke",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 244
+    },
+    {
+      "name": "Mai Mercado",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 189
+    },
+    {
+      "name": "Malte Larsen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 16351
+    },
+    {
+      "name": "Malte Larsen",
+      "facebook": "https://www.facebook.com/MalteLarsenDF/",
+      "instagram": "https://www.instagram.com/maltelarsen1507/",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21376
+    },
+    {
+      "name": "Marcus Knuth",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15790
+    },
+    {
+      "name": "Marianne Bigum",
+      "facebook": "https://www.facebook.com/MarianneBigumsSide/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20358
+    },
+    {
+      "name": "Marie Bjerre",
+      "facebook": "https://www.facebook.com/Marie.Bjerre.i.FT/",
+      "instagram": "https://www.instagram.com/mariebjerre.dk/#",
+      "twitter_x": "https://x.com/marie_bjerre",
+      "linkedin": "https://www.linkedin.com/in/marie-bjerre/?originalSubdomain=dk",
+      "aktoer_id": 18701
+    },
+    {
+      "name": "Marie Brixtofte",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/mariebrixtofte",
+      "twitter_x": null,
+      "linkedin": "https://dk.linkedin.com/in/mariebrixtofte",
+      "aktoer_id": 21367
+    },
+    {
+      "name": "Marlene Ambo-Rasmussen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18698
+    },
+    {
+      "name": "Marlene Harpsøe",
+      "facebook": "https://www.facebook.com/marleneharpsoee",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 1146
+    },
+    {
+      "name": "Martin Lidegaard",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 141
+    },
+    {
+      "name": "Mathilde Hjort Bressum",
+      "facebook": "https://www.facebook.com/hjortbressum",
+      "instagram": "https://www.instagram.com/mathildebressum/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/mathilde-hjort-bressum-b46091162/",
+      "aktoer_id": 21352
+    },
+    {
+      "name": "Matilde Powers",
+      "facebook": "https://www.facebook.com/socialdemokratmatildepowers/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20365
+    },
+    {
+      "name": "Mattias Tesfaye",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15770
+    },
+    {
+      "name": "Mette Abildgaard",
+      "facebook": "https://www.facebook.com/abildgaard.mette",
+      "instagram": "https://www.instagram.com/mette.abildgaard",
+      "twitter_x": "https://x.com/metteabildgaard",
+      "linkedin": null,
+      "aktoer_id": 15793
+    },
+    {
+      "name": "Mette Frederiksen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 138
+    },
+    {
+      "name": "Mette Thiesen",
+      "facebook": "https://www.facebook.com/mette.thiesen/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18721
+    },
+    {
+      "name": "Michael Nedersøe",
+      "facebook": "https://www.facebook.com/michaelnedersoeDF/?locale=da_DK",
+      "instagram": "https://www.instagram.com/michael_nedersoe/",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21351
+    },
+    {
+      "name": "Mikkel Bjørn",
+      "facebook": "https://www.facebook.com/MikkelBiorn",
+      "instagram": null,
+      "twitter_x": "https://x.com/Mikkel_Bjorn",
+      "linkedin": null,
+      "aktoer_id": 20356
+    },
+    {
+      "name": "Mikkel Dencker",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 216
+    },
+    {
+      "name": "Mogens Jensen",
+      "facebook": "https://www.facebook.com/mogensjensen",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 154
+    },
+    {
+      "name": "Mohammad Rona",
+      "facebook": "https://www.facebook.com/people/Mohammad-Rona-MF-for-Moderaterne/100081976519301/#",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20415
+    },
+    {
+      "name": "Mona Juul",
+      "facebook": "https://www.facebook.com/JuulMona",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18713
+    },
+    {
+      "name": "Monika Rubin",
+      "facebook": "https://www.facebook.com/monikarubinmoderaterne/",
+      "instagram": null,
+      "twitter_x": "https://x.com/monikaarubin",
+      "linkedin": "https://www.linkedin.com/in/monikarubin/",
+      "aktoer_id": 20380
+    },
+    {
+      "name": "Morten Bødskov",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 220
+    },
+    {
+      "name": "Morten Dahlin",
+      "facebook": "https://www.facebook.com/mortendahlin",
+      "instagram": "https://www.instagram.com/mortendahlin",
+      "twitter_x": "https://x.com/MortenDahlin",
+      "linkedin": "https://www.linkedin.com/in/morten-dahlin-318725104/",
+      "aktoer_id": 18696
+    },
+    {
+      "name": "Morten E.G. Brautsch",
+      "facebook": "https://www.facebook.com/profile.php?id=61588275698730",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/morten-e-g-brautsch-6330b362/",
+      "aktoer_id": 21346
+    },
+    {
+      "name": "Morten Messerschmidt",
+      "facebook": "https://www.facebook.com/MortenMesserschmidt/",
+      "instagram": "https://www.instagram.com/mrmesserschmidt/",
+      "twitter_x": "https://x.com/MrMesserschmidt",
+      "linkedin": "https://www.linkedin.com/in/morten-messerschmidt-2411631b6/",
+      "aktoer_id": 238
+    },
+    {
+      "name": "Naaja H. Nathanielsen",
+      "facebook": "https://www.facebook.com/people/Naaja-H-Nathanielsen/61581046927612/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/naaja-h-nathanielsen-92a18a96/",
+      "aktoer_id": 21387
+    },
+    {
+      "name": "Nadja Natalie Isaksen",
+      "facebook": "https://www.facebook.com/nadjaisaksenbp/",
+      "instagram": null,
+      "twitter_x": "https://x.com/NadjaIsaksen",
+      "linkedin": "http://www.linkedin.com/in/nadja-natalie-isaksen-55761083",
+      "aktoer_id": 21354
+    },
+    {
+      "name": "Nanna Bonde",
+      "facebook": "https://www.facebook.com/nanna.bonde/?locale=da_DK",
+      "instagram": "https://www.instagram.com/nanna.bonde/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/nanna-bonde-7ab1a4125/",
+      "aktoer_id": 21383
+    },
+    {
+      "name": "Nick Zimmermann",
+      "facebook": "https://www.facebook.com/NickZimmermannDF",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20350
+    },
+    {
+      "name": "Nicolai Wammen",
+      "facebook": "https://www.facebook.com/nicolaiwammen",
+      "instagram": "https://www.instagram.com/nicolai.wammen",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/nicolai-wammen-34148841/",
+      "aktoer_id": 12
+    },
+    {
+      "name": "Ole Birk Olesen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 99
+    },
+    {
+      "name": "Peder Hvelplund",
+      "facebook": "https://www.facebook.com/peder.hvelplund",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 16582
+    },
+    {
+      "name": "Pelle Dragsted",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15777
+    },
+    {
+      "name": "Pernille Christensen",
+      "facebook": "https://www.facebook.com/share/1DunoxX8N1/?mibextid=wwXIfr",
+      "instagram": "https://www.instagram.com/pernille.christensen1?igsh=ZXV2ZDhybjJmZHE5&utm_source=qr",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/pernillechristensen?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      "aktoer_id": 21370
+    },
+    {
+      "name": "Pernille Vermund",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18723
+    },
+    {
+      "name": "Peter Hummelgaard",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15776
+    },
+    {
+      "name": "Peter Juel-Jensen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 180
+    },
+    {
+      "name": "Peter Kofod",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15763
+    },
+    {
+      "name": "Peter Larsen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15035
+    },
+    {
+      "name": "Philip Vivet",
+      "facebook": "http://facebook.com/PhilipVivetRV",
+      "instagram": "http://instagram.com/philipvivetrv/",
+      "twitter_x": null,
+      "linkedin": "http://dk.linkedin.com/in/philipvivet",
+      "aktoer_id": 21344
+    },
+    {
+      "name": "Pia Olsen Dyhr",
+      "facebook": "https://www.facebook.com/pia.olsen.dyhr/",
+      "instagram": "https://www.instagram.com/piaolsendyhr/",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 43
+    },
+    {
+      "name": "Pil Christensen",
+      "facebook": "https://www.facebook.com/pil.christensen.9",
+      "instagram": "https://www.instagram.com/pil_christensen/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/pil-christensen-ab3b5b18/",
+      "aktoer_id": 21398
+    },
+    {
+      "name": "Preben Bang Henriksen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 127
+    },
+    {
+      "name": "Qarsoq Høegh-Dam",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21388
+    },
+    {
+      "name": "Rasmus Lund-Nielsen",
+      "facebook": "https://www.facebook.com/people/Rasmus-Lund-Nielsen-Moderaterne/100082111483593/#",
+      "instagram": "https://www.instagram.com/rasmuslundnielsen_/",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/rasmus-lund-nielsen-73276253/",
+      "aktoer_id": 20386
+    },
+    {
+      "name": "Rasmus Stoklund",
+      "facebook": "https://www.facebook.com/rasmusstoklund",
+      "instagram": "https://www.instagram.com/rasmusstoklund/",
+      "twitter_x": "https://x.com/RStoklund",
+      "linkedin": null,
+      "aktoer_id": 18716
+    },
+    {
+      "name": "Rasmus Vestergaard Madsen",
+      "facebook": "https://www.facebook.com/Rasmusvestergaardmadsen",
+      "instagram": "https://www.instagram.com/rasmus.v.madsen/",
+      "twitter_x": "https://twitter.com/RasmusVMadsen",
+      "linkedin": "https://dk.linkedin.com/in/rasmus-vestergaard-madsen-5192472b8",
+      "aktoer_id": 16073
+    },
+    {
+      "name": "Rune Bønnelykke",
+      "facebook": "https://www.facebook.com/rune.bonnelykke/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21357
+    },
+    {
+      "name": "Rune Kristensen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21373
+    },
+    {
+      "name": "Samira Nawa",
+      "facebook": "https://www.facebook.com/SAMIRA.NAWA/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18725
+    },
+    {
+      "name": "Signe Munk",
+      "facebook": "https://www.facebook.com/signe.munk.5",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18709
+    },
+    {
+      "name": "Signe Wenneberg",
+      "facebook": null,
+      "instagram": "http://www.instagram.com/signewenneberg",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/signe-wenneberg-1437991/",
+      "aktoer_id": 21368
+    },
+    {
+      "name": "Sigurd Agersnap",
+      "facebook": "https://www.facebook.com/SigurdAgersnap",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20359
+    },
+    {
+      "name": "Simon Kollerup",
+      "facebook": "https://www.facebook.com/simonkollerup",
+      "instagram": "https://www.instagram.com/simonkollerup",
+      "twitter_x": "https://x.com/simonkollerup",
+      "linkedin": "https://www.linkedin.com/in/simonkollerup/",
+      "aktoer_id": 208
+    },
+    {
+      "name": "Sinem Dybvad Demir",
+      "facebook": "https://www.facebook.com/SinemDemirEnhedslisten/",
+      "instagram": "https://www.instagram.com/sinemdybvaddemir/",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21371
+    },
+    {
+      "name": "Sjúrður Skaale",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 262
+    },
+    {
+      "name": "Sofie F. Villadsen",
+      "facebook": "https://www.facebook.com/sofievillladsen/",
+      "instagram": "https://www.instagram.com/sofievilladsen/",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21365
+    },
+    {
+      "name": "Sofie Lippert",
+      "facebook": "https://www.facebook.com/sofielippertSF",
+      "instagram": "http://Instagram.com/sofielippert",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20360
+    },
+    {
+      "name": "Sofie Therese Svendsen",
+      "facebook": "https://www.facebook.com/p/Sofie-Therese-Svendsen-100072221438296/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/sofie-svendsen-4b5802234/",
+      "aktoer_id": 21339
+    },
+    {
+      "name": "Sofie de Bretteville",
+      "facebook": "https://www.facebook.com/share/18cSV8ZHmp/?mibextid=wwXIfr",
+      "instagram": "https://www.instagram.com/sofiedebretteville?igsh=MTRlZ3g3Y2toeDU2NA%3D%3D&utm_source=qr",
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21363
+    },
+    {
+      "name": "Sophie Hæstorp Andersen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 351
+    },
+    {
+      "name": "Sophie Løhde",
+      "facebook": "https://www.facebook.com/SophieLoehde",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 130
+    },
+    {
+      "name": "Steffen Holme Helledie",
+      "facebook": "https://www.facebook.com/steffen.helledie/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21338
+    },
+    {
+      "name": "Steffen W. Frølund",
+      "facebook": "https://www.facebook.com/steffenfrolund/",
+      "instagram": null,
+      "twitter_x": "https://x.com/SteffenFrolund",
+      "linkedin": "https://www.linkedin.com/in/steffenfrolund/",
+      "aktoer_id": 20394
+    },
+    {
+      "name": "Stephanie Lose",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20546
+    },
+    {
+      "name": "Stinus Lindgreen",
+      "facebook": "https://www.facebook.com/StinusLindgreenRV/?locale=da_DK",
+      "instagram": "https://www.instagram.com/stinus.lindgreen/?hl=da",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/stinuslindgreen/",
+      "aktoer_id": 18726
+    },
+    {
+      "name": "Susie Jessen",
+      "facebook": "https://www.facebook.com/SusieJessenDD/",
+      "instagram": "https://www.instagram.com/susie.jessen/",
+      "twitter_x": "https://x.com/SusieJessen",
+      "linkedin": "https://www.linkedin.com/in/susie-jessen-aaaa68164/",
+      "aktoer_id": 20373
+    },
+    {
+      "name": "Sólbjørg Jakobsen",
+      "facebook": "https://www.facebook.com/solbjorgjakobsen/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20391
+    },
+    {
+      "name": "Søren Boel Olesen",
+      "facebook": "https://www.facebook.com/SorenOlesenDF/",
+      "instagram": "https://www.instagram.com/soren.olesen.df",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/s%C3%B8ren-boel-olesen-4056137a/",
+      "aktoer_id": 21347
+    },
+    {
+      "name": "Søren Gade",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 1845
+    },
+    {
+      "name": "Theresa Berg Andersen",
+      "facebook": "https://www.facebook.com/theresabergandersen",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 19000
+    },
+    {
+      "name": "Thomas Danielsen",
+      "facebook": "https://www.facebook.com/ThDanielsen/?locale=da_DK",
+      "instagram": "https://www.instagram.com/thdanielsen/?hl=da",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/thomas-danielsen-5368416b/",
+      "aktoer_id": 139
+    },
+    {
+      "name": "Thomas Klimek",
+      "facebook": "https://www.facebook.com/stemKlimek/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21337
+    },
+    {
+      "name": "Thomas Monberg",
+      "facebook": "https://www.facebook.com/politikerthomasmonberg",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/thomas-monberg-0564a8103/",
+      "aktoer_id": 20362
+    },
+    {
+      "name": "Thomas Rohden",
+      "facebook": "https://www.facebook.com/thomas.rohden/",
+      "instagram": "https://www.instagram.com/thomasrohden",
+      "twitter_x": "https://x.com/ThomasRohden",
+      "linkedin": "https://dk.linkedin.com/in/thomas-rohden-313813a8",
+      "aktoer_id": 21380
+    },
+    {
+      "name": "Thomas Skriver Jensen",
+      "facebook": "https://www.facebook.com/DenFaglaerteFolketingskandidat/",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 20366
+    },
+    {
+      "name": "Thorbjørn Jacobsen",
+      "facebook": "https://www.facebook.com/tjliberal",
+      "instagram": "https://www.instagram.com/tjliberal/",
+      "twitter_x": "https://x.com/tjliberal",
+      "linkedin": "https://www.linkedin.com/in/tfjacobsen/",
+      "aktoer_id": 21345
+    },
+    {
+      "name": "Torsten Gejl",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 15775
+    },
+    {
+      "name": "Trine Birk Andersen",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/trine.b.andersen.1",
+      "twitter_x": null,
+      "linkedin": "https://www.linkedin.com/in/trine-birk-andersen-98376813b/",
+      "aktoer_id": 21372
+    },
+    {
+      "name": "Trine Bramsen",
+      "facebook": "https://www.facebook.com/TrineBramsen",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 118
+    },
+    {
+      "name": "Trine Jepsen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 21348
+    },
+    {
+      "name": "Trine Pertou Mach",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 109
+    },
+    {
+      "name": "Troels Lund Poulsen",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 206
+    },
+    {
+      "name": "Ulrik Knudsen",
+      "facebook": "https://www.facebook.com/ulrikknudsendanmarksdemokraterne",
+      "instagram": "https://www.instagram.com/ulrik_knudsen10/",
+      "twitter_x": "https://x.com/UKnudsen",
+      "linkedin": "https://www.linkedin.com/in/uknudsen/",
+      "aktoer_id": 21359
+    },
+    {
+      "name": "Victoria Velasquez",
+      "facebook": "https://www.facebook.com/VictoriaRisbjergVelasquez",
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 18694
+    },
+    {
+      "name": "Zenia Stampe",
+      "facebook": null,
+      "instagram": null,
+      "twitter_x": null,
+      "linkedin": null,
+      "aktoer_id": 191
+    }
+  ]
+}
